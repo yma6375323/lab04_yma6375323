@@ -1,3 +1,6 @@
+git add .
+git commit -m "Initial version of Lab 4"
+git push origin master
 #include "arrayFuncs.h"
 #include <cstdlib>
 #include <iostream>
