@@ -5,5 +5,13 @@
 #include "utility.h"
 
 int sumOdds(int a[], int size) {
-  return -42; // STUB!  Replace with correct code.
+	int sum=0;
+	for(int i = 0; i < size; i++){
+		if(a[i] % 2 !=0){
+			sum=sum+a[i];
+
+		}
+
+	}
+return sum;
 }

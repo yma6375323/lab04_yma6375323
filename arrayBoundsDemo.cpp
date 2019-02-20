@@ -1,6 +1,3 @@
-git add .
-git commit -m "Initial version of Lab 4"
-git push origin master
 /*
 / arrayBoundsDemo.cpp for CS16, UCSB
 / Copyright © 2017 by Diba Mirza, Ziad Matni, Phillip Conrad.

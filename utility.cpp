@@ -1,3 +1,5 @@
+
+
 // utility.cpp
 
 // IN THIS FILE, define any of your OWN functions you may need to 
@@ -9,13 +11,30 @@
 // You will need to include the function prototype in "utility.h" and
 // then be sure to  #include "utility.h" in the file where you use
 // these functions
-
+#include<math.h>
 bool isOdd(int x) { 
-  return false;  // REPLACE THIS STUB WITH REAL CODE
+	if(x%2!=0)
+		return true;
+	else
+		return false;  // REPLACE THIS STUB WITH REAL CODE
 }
 bool isEven(int x) { 
-  return false;  // REPLACE THIS STUB WITH REAL CODE
+	if(x%2==0)
+		return true;
+	else
+		return false;  // REPLACE THIS STUB WITH REAL CODE
 }
 bool isPrime(int x) { 
-  return false;  // REPLACE THIS STUB WITH REAL CODE
+	if (x<=1)
+		return false;
+	for (int i = 2; i <= sqrt((double)x); i++)
+	{
+		if(x % i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+
+// REPLACE THIS STUB WITH REAL CODE
 }
